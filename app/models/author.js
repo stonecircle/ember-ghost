@@ -13,4 +13,6 @@ export default Model.extend({
   location: attr('string'),
 
   posts: hasMany('content'),
+
+  meta: attr(),
 });

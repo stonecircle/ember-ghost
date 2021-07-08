@@ -31,5 +31,7 @@ export default Model.extend({
       until: '4.0.0',
     });
     return get(this, 'authors.firstObject');
-  })
+  }),
+
+  meta: attr(),
 });
